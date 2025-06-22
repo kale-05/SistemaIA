@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}Historial - BLIB{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-column h-100">
+    <!-- Header -->
+    <div class="d-flex justify-content-between align-items-center pb-2 mb-3 border-bottom">
+        <h1 class="h2">Historial de Conversaciones</h1>
+        <div class="col-md-4">
+            <form method="GET" action="{{ url_for('historial') }}">
+                <div class="input-group">
+                    <input type="text" class="form-control" name="q" placeholder="Buscar en mensajes..." value="{{ search_query or '' }}">
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Lista de Conversaciones -->
+    <div class="list-group">
+        {% if conversaciones %}
+            {% for conv in conversaciones %}
+            <a href="{{ url_for('ver_conversacion', conv_id=conv.id) }}" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">{{ conv.titulo }}</h5>
+                    <small class="text-muted">{{ conv.fecha_hora.strftime('%Y-%m-%d') }}</small>
+                </div>
+                {% if conv.mensajes %}
+                <p class="mb-1 text-muted">
+                    Último mensaje: {{ conv.mensajes[-1].contenido | truncate(70) }}
+                </p>
+                {% endif %}
+            </a>
+            {% endfor %}
+        {% else %}
+            {% if search_query %}
+                <p class="text-center text-muted mt-4">No se encontraron conversaciones que coincidan con tu búsqueda.</p>
+            {% else %}
+                <p class="text-center text-muted mt-4">No tienes conversaciones guardadas todavía.</p>
+            {% endif %}
+        {% endif %}
+    </div>
+</div>
+{% endblock %} 

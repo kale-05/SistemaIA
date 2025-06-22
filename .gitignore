@@ -1,0 +1,27 @@
+# Ignorar variables de entorno
+.env
+
+# Ignorar entorno virtual de Python
+venv/
+env/
+
+# Ignorar caché de Python y archivos compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos temporales y logs
+*.log
+
+# Ignorar archivos de bases de datos locales
+*.sqlite3
+
+# Ignorar configuraciones de MySQL Workbench (si generas archivos específicos)
+*.mwb
+*.myd
+*.myi
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db

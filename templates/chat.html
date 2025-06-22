@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+
+{% block title %}Conversación - BLIB{% endblock %}
+
+{% block content %}
+<div class="d-flex flex-column h-100">
+    <!-- Header -->
+    <div class="d-flex justify-content-between align-items-center pb-2 mb-3 border-bottom">
+        <div>
+            <h1 class="h2">Bienvenido a BLIB</h1>
+            <p class="text-muted">La Inteligencia artificial basada en libros</p>
+        </div>
+        <div class="text-end">
+            <strong>{{ current_user.nombre }}</strong>
+        </div>
+    </div>
+
+    <!-- Chat Area -->
+    <div id="chat-area" class="flex-grow-1 overflow-auto p-3 bg-white rounded mb-3" style="max-height: 70vh;">
+        {% if mensajes %}
+            {# Si estamos viendo una conversación del historial, mostramos sus mensajes #}
+            {% for msg in mensajes %}
+                <div class="d-flex flex-column {% if msg.remitente == 'usuario' %}align-items-end{% else %}align-items-start{% endif %} mb-3">
+                    <div class="p-3 rounded {% if msg.remitente == 'usuario' %}bg-primary text-white{% else %}bg-light{% endif %}">
+                        <p class="mb-0">{{ msg.contenido }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            {# Si es un chat nuevo, mostramos el mensaje de bienvenida #}
+            <div class="d-flex flex-column align-items-start mb-3">
+                <div class="p-3 rounded bg-light">
+                    <p class="mb-0">¡Hola! Soy BLIB. Pregúntame sobre autores o libros de nuestra base de datos.</p>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+
+    <!-- Input Form -->
+    {# Guardamos el ID de la conversación actual para usarlo con JavaScript #}
+    <form id="message-form" data-conv-id="{{ conversacion.id if conversacion else '' }}">
+        <div class="input-group">
+            <input type="text" id="message-input" class="form-control form-control-lg" placeholder="Pregunta por el libro que quieras..." autocomplete="off">
+            <button class="btn btn-primary" type="submit">
+                <i class="fas fa-paper-plane"></i> Enviar
+            </button>
+        </div>
+    </form>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.getElementById('message-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const messageInput = document.getElementById('message-input');
+    const message = messageInput.value.trim();
+    const chatArea = document.getElementById('chat-area');
+    const form = e.target;
+    
+    // Obtenemos el ID de la conversación del atributo data que guardamos antes
+    let conversationId = form.dataset.convId;
+
+    if (message) {
+        appendMessage(message, 'usuario');
+        messageInput.value = '';
+
+        fetch('/chat', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            // Enviamos tanto el mensaje como el ID de la conversación
+            body: JSON.stringify({ message: message, conversation_id: conversationId })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.response) {
+                appendMessage(data.response, 'ia');
+                // Si es una nueva conversación, actualizamos el ID en nuestro formulario
+                if (data.conversation_id && !conversationId) {
+                    form.dataset.convId = data.conversation_id;
+                }
+            } else {
+                appendMessage(data.error || 'Hubo un error al procesar la respuesta.', 'ia');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            appendMessage('Error de conexión con el servidor. Inténtalo más tarde.', 'ia');
+        });
+    }
+});
+
+function appendMessage(content, sender) {
+    const chatArea = document.getElementById('chat-area');
+    const messageWrapper = document.createElement('div');
+    
+    if (sender === 'usuario') {
+        messageWrapper.className = 'd-flex flex-column align-items-end mb-3';
+        messageWrapper.innerHTML = `
+            <div class="p-3 rounded bg-primary text-white">
+                <p class="mb-0">${content}</p>
+            </div>
+        `;
+    } else { // 'ia'
+        messageWrapper.className = 'd-flex flex-column align-items-start mb-3';
+        messageWrapper.innerHTML = `
+            <div class="p-3 rounded bg-light">
+                <p class="mb-0">${content}</p>
+            </div>
+        `;
+    }
+    
+    chatArea.appendChild(messageWrapper);
+    chatArea.scrollTop = chatArea.scrollHeight; // Auto-scroll
+}
+</script>
+{% endblock %} 
