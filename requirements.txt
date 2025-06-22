@@ -1,7 +1,5 @@
-Flask==2.3.3
-Flask-SQLAlchemy==3.0.5
-Flask-Login==0.6.3
-Werkzeug==2.3.7
-PyMySQL==1.1.0
-cryptography==41.0.4
-python-dotenv==1.0.0 
+findspark==2.0.1
+gunicorn==23.0.0
+packaging==25.0
+py4j==0.10.9.7
+pyspark==3.5.5
