@@ -6,39 +6,34 @@
 <div class="d-flex flex-column h-100">
     <!-- Header -->
     <div class="d-flex justify-content-between align-items-center pb-2 mb-3 border-bottom">
-        <h1 class="h2">Base de Datos de Libros</h1>
+        <div>
+            <h1 class="h2">Base de Datos de Libros</h1>
+        </div>
+        <div class="text-end">
+            <strong>{{ current_user.nombre }}</strong>
+        </div>
     </div>
 
-    <!-- Tabla de Libros -->
-    <div class="table-responsive bg-white p-3 rounded">
-        <table class="table table-striped table-hover">
-            <thead>
-                <tr>
-                    <th>ISBN</th>
-                    <th>Título</th>
-                    <th>Autor</th>
-                    <th>Páginas</th>
-                    <th>Editorial</th>
-                    <th>Descripción</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for libro in libros %}
-                <tr>
-                    <td>{{ libro.isbn or 'N/A' }}</td>
-                    <td>{{ libro.titulo }}</td>
-                    <td>{{ libro.autor.nombre or 'Desconocido' }}</td>
-                    <td>{{ libro.paginas or 'N/A' }}</td>
-                    <td>{{ libro.editorial or 'N/A' }}</td>
-                    <td>{{ libro.descripcion | truncate(100) }}</td>
-                </tr>
-                {% else %}
-                <tr>
-                    <td colspan="6" class="text-center">No hay libros en la base de datos.</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+    <!-- Lista de Libros como tarjetas -->
+    <div class="container-fluid">
+        {% for libro in libros %}
+        <div class="row align-items-center mb-4 p-3" style="background: #e0e0e0; border-radius: 8px;">
+            <div class="col-auto">
+              <!--  <img src="{{ libro.portada }}" alt="portada" style="width: 100px; height: 140px; object-fit: cover; background: #6fa6a6; border-radius: 4px;" onerror="this.onerror=null;this.src='/static/default_cover.png';">-->
+                <img src="{{ url_for('static', filename=libro.portada) }}"
+                alt="portada"
+                style="width: 100px; height: 140px; object-fit: cover; background: #6fa6a6; border-radius: 4px;"
+                onerror="this.onerror=null;this.src='{{ url_for('static', filename='default_cover.png') }}';">
+            </div>
+            <div class="col">
+                <h5 class="mb-1">{{ libro.titulo }}</h5>
+                <div class="mb-1"><strong>Autor:</strong> {{ libro.autor.nombre or 'Desconocido' }}</div>
+                <div class="mb-1 text-muted" style="font-size: 0.95em;">{{ libro.descripcion | truncate(100) }}</div>
+            </div>
+        </div>
+        {% else %}
+        <div class="text-center">No hay libros en la base de datos.</div>
+        {% endfor %}
     </div>
 </div>
 {% endblock %} 

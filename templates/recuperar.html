@@ -8,10 +8,9 @@
         <p class="h5 mb-3 fw-normal">Recuperación de contraseña</p>
         <p class="text-muted">Ingresa tu correo electrónico con el que registraste la cuenta, en breve te mandaremos un correo.</p>
     </div>
-    
     <form method="POST" action="{{ url_for('recuperar') }}">
         <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com" required>
+            <input type="email" class="form-control" id="email" name="correo" placeholder="nombre@ejemplo.com" required>
             <label for="email">Correo electrónico</label>
         </div>
         <button class="w-100 btn btn-lg btn-primary" type="submit">Continuar</button>
@@ -19,4 +18,5 @@
     <div class="text-center mt-3">
         <p><a href="{{ url_for('login') }}">Volver a Inicio de Sesión</a></p>
     </div>
+   
 {% endblock %} 

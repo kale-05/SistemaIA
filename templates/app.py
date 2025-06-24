@@ -44,7 +44,7 @@ login_manager.login_message = "Por favor, inicia sesión para acceder a esta pá
 def load_user(user_id):
     return Usuario.query.get(int(user_id))
 
-# 2. Modelos de Base de Datos (Adaptados a tu schema)
+# 2. Modelos de Base de Datos
 class Usuario(UserMixin, db.Model):
     __tablename__ = 'usuarios'
     
@@ -81,11 +81,10 @@ class Libro(db.Model):
     id_autor = db.Column(db.Integer, db.ForeignKey('autores.id_autor'))
     tema = db.Column(db.String(100))
     disponible = db.Column(db.Boolean, default=True)
-    # Campos añadidos desde el wireframe
+
     isbn = db.Column(db.String(20), unique=True, nullable=True)
     paginas = db.Column(db.Integer, nullable=True)
     editorial = db.Column(db.String(100), nullable=True)
-    portada = db.Column(db.String(255))
 
 class RelacionLibro(db.Model):
     __tablename__ = 'relaciones_libros'
@@ -110,7 +109,7 @@ class Mensaje(db.Model):
     contenido = db.Column(db.Text)
     fecha_hora = db.Column(db.DateTime, default=datetime.utcnow)
 
-# 3. Rutas de la Aplicación (Basadas en Wireframes)
+# 3. Rutas de la Aplicación 
 
 # Ruta principal (Chat)
 @app.route('/')
@@ -150,7 +149,7 @@ def registro():
         email_usuario = request.form.get('email')
         password_usuario = request.form.get('password')
         
-        # Validación explícita que los analizadores de código entienden
+        # Validación 
         if not nombre_usuario or not email_usuario or not password_usuario:
             flash('Todos los campos son obligatorios.')
             return redirect(url_for('registro'))
@@ -187,7 +186,6 @@ def ver_conversacion(conv_id):
     
     mensajes = Mensaje.query.filter_by(id_conversacion=conv_id).order_by(Mensaje.fecha_hora.asc()).all()
     
-    # Reutilizamos la plantilla de chat para mostrar la conversación
     return render_template('chat.html', conversacion=conv, mensajes=mensajes)
 
 # Rutas de Contenido
@@ -224,16 +222,9 @@ def libros():
     return render_template('libros.html', libros=lista_libros)
 
 # Rutas para recuperación de contraseña (a implementar)
-
-
 @app.route('/recuperar', methods=['GET', 'POST'])
 def recuperar():
-    if request.method == 'POST':
-        correo = request.form['correo']
-       
-        return redirect(url_for('login'))  
     return render_template('recuperar.html')
-   
 
 @app.route('/nueva-contrasena/<token>', methods=['GET', 'POST'])
 def nueva_contrasena(token):
@@ -250,7 +241,6 @@ def chat():
     if not user_message_content:
         return jsonify({'error': 'No se recibió ningún mensaje.'}), 400
 
-    # --- Gestión de la Conversación ---
     conversacion = None
     if conv_id:
         conversacion = Conversacion.query.get(conv_id)
@@ -266,7 +256,7 @@ def chat():
     user_message = Mensaje(id_conversacion=conversacion.id, remitente='usuario', contenido=user_message_content)
     db.session.add(user_message)
     
-    # --- Lógica de la "IA" (Versión 2.3 - Extracción de Título Mejorada) ---
+  
     ai_response_content = ""
     search_term = user_message_content.lower().strip()
 
@@ -284,15 +274,15 @@ def chat():
             else:
                 ai_response_content = f"Lo siento, no pude encontrar el libro '{book_title_from_user}'."
 
-        # 2. PROCESAR NORMALMENTE SI NO HAY PREGUNTAS PENDIENTES
+        # 2. SI NO HAY PREGUNTAS PENDIENTES PROCESAR NORMALMENTE 
         if not ai_response_content:
-            # Búsqueda por coincidencia exacta en JSON (rápido)
+            # Búsqueda por coincidencia exacta en JSON 
             for intent in chatbot_data['intents']:
                 if any(p.lower() == search_term for p in intent['patterns']):
                     ai_response_content = random.choice(intent['responses'])
                     break
             
-            # Si no, usar lógica FLEXIBLE
+            
             if not ai_response_content:
                 all_keywords = {
                     'autor': ['autor de', 'autor del libro', 'quien es el autor de', 'autor', 'autores', 'escribio', 'quien escribio'],
@@ -328,7 +318,7 @@ def chat():
                         else:
                             ai_response_content = f"No pude encontrar un libro que coincida con '{detected_entity}'."
 
-            # 3. Si AÚN no hay respuesta, búsqueda general por título o tema
+            # 3. Si no hay respuesta búsqueda general por título o tema
             if not ai_response_content:
                 session.pop('pending_question', None)
                 libro = Libro.query.filter(Libro.titulo.ilike(f"%{search_term}%")).first()
@@ -348,7 +338,6 @@ def chat():
         ai_response_content = "Oh, parece que hubo un problema interno. Ya estamos trabajando en ello."
         print(f"Error en la lógica del chat: {e}")
 
-    # --- Guardar y devolver respuesta ---
     ai_message = Mensaje(id_conversacion=conversacion.id, remitente='ia', contenido=ai_response_content)
     db.session.add(ai_message)
     db.session.commit()

@@ -1,0 +1,1529 @@
+{
+    "intents": [
+        {
+            "tag": "paginas_designing_data-intensive_applications",
+            "patterns": [
+                "cuantas paginas tiene el libro Designing Data-Intensive Applications",
+                "paginas de Designing Data-Intensive Applications",
+                "numero de paginas de Designing Data-Intensive Applications",
+                "dame las paginas de Designing Data-Intensive Applications",
+                "cuantas páginas tiene Designing Data-Intensive Applications"
+            ],
+            "responses": [
+                "El libro 'Designing Data-Intensive Applications' tiene 616 páginas."
+            ]
+        },
+        {
+            "tag": "autor_designing_data-intensive_applications",
+            "patterns": [
+                "quien es el autor del libro Designing Data-Intensive Applications",
+                "autor de Designing Data-Intensive Applications",
+                "quien escribio Designing Data-Intensive Applications",
+                "quienes son los autores del libro Designing Data-Intensive Applications"
+            ],
+            "responses": [
+                "El autor del libro 'Designing Data-Intensive Applications' es Martin Kleppmann.",
+                "Su autor es Martin Kleppmann."
+            ]
+        },
+        {
+            "tag": "descripcion_designing_data-intensive_applications",
+            "patterns": [
+                "dame la descripción del libro Designing Data-Intensive Applications",
+                "descripcion de Designing Data-Intensive Applications",
+                "descripción de Designing Data-Intensive Applications",
+                "de que trata el libro Designing Data-Intensive Applications"
+            ],
+            "responses": [
+                "La descripción del libro 'Designing Data-Intensive Applications' es: \"Una guía completa sobre los principios y prácticas para diseñar sistemas de datos escalables, fiables y mantenibles.\". Es de la editorial O'Reilly Media con ISBN 978-1449373320."
+            ]
+        },
+        {
+            "tag": "editorial_designing_data-intensive_applications",
+            "patterns": [
+                "cual es la editorial de Designing Data-Intensive Applications",
+                "editorial de Designing Data-Intensive Applications",
+                "mencioname la editorial de Designing Data-Intensive Applications"
+            ],
+            "responses": [
+                "La editorial del libro 'Designing Data-Intensive Applications' es O'Reilly Media.",
+                "La editorial es O'Reilly Media."
+            ]
+        },
+        {
+            "tag": "isbn_designing_data-intensive_applications",
+            "patterns": [
+                "cual es el isbn de Designing Data-Intensive Applications",
+                "dame el isbn de Designing Data-Intensive Applications",
+                "isbn del libro Designing Data-Intensive Applications"
+            ],
+            "responses": [
+                "El ISBN del libro 'Designing Data-Intensive Applications' es 978-1449373320."
+            ]
+        },
+        {
+            "tag": "paginas_an_introduction_to_database_systems",
+            "patterns": [
+                "cuantas paginas tiene el libro An Introduction to Database Systems",
+                "paginas de An Introduction to Database Systems",
+                "numero de paginas de An Introduction to Database Systems",
+                "dame las paginas de An Introduction to Database Systems",
+                "cuantas páginas tiene An Introduction to Database Systems"
+            ],
+            "responses": [
+                "El libro 'An Introduction to Database Systems' tiene 1040 páginas."
+            ]
+        },
+        {
+            "tag": "autor_an_introduction_to_database_systems",
+            "patterns": [
+                "quien es el autor del libro An Introduction to Database Systems",
+                "autor de An Introduction to Database Systems",
+                "quien escribio An Introduction to Database Systems",
+                "quienes son los autores del libro An Introduction to Database Systems"
+            ],
+            "responses": [
+                "El autor del libro 'An Introduction to Database Systems' es C. J. Date.",
+                "Su autor es C. J. Date."
+            ]
+        },
+        {
+            "tag": "descripcion_an_introduction_to_database_systems",
+            "patterns": [
+                "dame la descripción del libro An Introduction to Database Systems",
+                "descripcion de An Introduction to Database Systems",
+                "descripción de An Introduction to Database Systems",
+                "de que trata el libro An Introduction to Database Systems"
+            ],
+            "responses": [
+                "La descripción del libro 'An Introduction to Database Systems' es: \"Un texto clásico y exhaustivo sobre la teoría y el diseño de los sistemas de bases de datos relacionales.\". Es de la editorial Addison-Wesley con ISBN 978-0321197849."
+            ]
+        },
+        {
+            "tag": "editorial_an_introduction_to_database_systems",
+            "patterns": [
+                "cual es la editorial de An Introduction to Database Systems",
+                "editorial de An Introduction to Database Systems",
+                "mencioname la editorial de An Introduction to Database Systems"
+            ],
+            "responses": [
+                "La editorial del libro 'An Introduction to Database Systems' es Addison-Wesley.",
+                "La editorial es Addison-Wesley."
+            ]
+        },
+        {
+            "tag": "isbn_an_introduction_to_database_systems",
+            "patterns": [
+                "cual es el isbn de An Introduction to Database Systems",
+                "dame el isbn de An Introduction to Database Systems",
+                "isbn del libro An Introduction to Database Systems"
+            ],
+            "responses": [
+                "El ISBN del libro 'An Introduction to Database Systems' es 978-0321197849."
+            ]
+        },
+        {
+            "tag": "paginas_nosql_distilled",
+            "patterns": [
+                "cuantas paginas tiene el libro NoSQL Distilled",
+                "paginas de NoSQL Distilled",
+                "numero de paginas de NoSQL Distilled",
+                "dame las paginas de NoSQL Distilled",
+                "cuantas páginas tiene NoSQL Distilled"
+            ],
+            "responses": [
+                "El libro 'NoSQL Distilled' tiene 192 páginas."
+            ]
+        },
+        {
+            "tag": "autor_nosql_distilled",
+            "patterns": [
+                "quien es el autor del libro NoSQL Distilled",
+                "autor de NoSQL Distilled",
+                "quien escribio NoSQL Distilled",
+                "quienes son los autores del libro NoSQL Distilled"
+            ],
+            "responses": [
+                "El autor del libro 'NoSQL Distilled' es Pramod J. Sadalage.",
+                "Su autor es Pramod J. Sadalage."
+            ]
+        },
+        {
+            "tag": "descripcion_nosql_distilled",
+            "patterns": [
+                "dame la descripción del libro NoSQL Distilled",
+                "descripcion de NoSQL Distilled",
+                "descripción de NoSQL Distilled",
+                "de que trata el libro NoSQL Distilled"
+            ],
+            "responses": [
+                "La descripción del libro 'NoSQL Distilled' es: \"Una guía concisa y accesible sobre el mundo emergente de las bases de datos NoSQL y la persistencia políglota.\". Es de la editorial Addison-Wesley con ISBN 978-0321826686."
+            ]
+        },
+        {
+            "tag": "editorial_nosql_distilled",
+            "patterns": [
+                "cual es la editorial de NoSQL Distilled",
+                "editorial de NoSQL Distilled",
+                "mencioname la editorial de NoSQL Distilled"
+            ],
+            "responses": [
+                "La editorial del libro 'NoSQL Distilled' es Addison-Wesley.",
+                "La editorial es Addison-Wesley."
+            ]
+        },
+        {
+            "tag": "isbn_nosql_distilled",
+            "patterns": [
+                "cual es el isbn de NoSQL Distilled",
+                "dame el isbn de NoSQL Distilled",
+                "isbn del libro NoSQL Distilled"
+            ],
+            "responses": [
+                "El ISBN del libro 'NoSQL Distilled' es 978-0321826686."
+            ]
+        },
+        {
+            "tag": "paginas_hadoop:_the_definitive_guide",
+            "patterns": [
+                "cuantas paginas tiene el libro Hadoop: The Definitive Guide",
+                "paginas de Hadoop: The Definitive Guide",
+                "numero de paginas de Hadoop: The Definitive Guide",
+                "dame las paginas de Hadoop: The Definitive Guide",
+                "cuantas páginas tiene Hadoop: The Definitive Guide"
+            ],
+            "responses": [
+                "El libro 'Hadoop: The Definitive Guide' tiene 758 páginas."
+            ]
+        },
+        {
+            "tag": "autor_hadoop:_the_definitive_guide",
+            "patterns": [
+                "quien es el autor del libro Hadoop: The Definitive Guide",
+                "autor de Hadoop: The Definitive Guide",
+                "quien escribio Hadoop: The Definitive Guide",
+                "quienes son los autores del libro Hadoop: The Definitive Guide"
+            ],
+            "responses": [
+                "El autor del libro 'Hadoop: The Definitive Guide' es Tom White.",
+                "Su autor es Tom White."
+            ]
+        },
+        {
+            "tag": "descripcion_hadoop:_the_definitive_guide",
+            "patterns": [
+                "dame la descripción del libro Hadoop: The Definitive Guide",
+                "descripcion de Hadoop: The Definitive Guide",
+                "descripción de Hadoop: The Definitive Guide",
+                "de que trata el libro Hadoop: The Definitive Guide"
+            ],
+            "responses": [
+                "La descripción del libro 'Hadoop: The Definitive Guide' es: \"El libro de referencia para aprender a construir y mantener sistemas fiables y escalables con Apache Hadoop.\". Es de la editorial O'Reilly Media con ISBN 978-1491901632."
+            ]
+        },
+        {
+            "tag": "editorial_hadoop:_the_definitive_guide",
+            "patterns": [
+                "cual es la editorial de Hadoop: The Definitive Guide",
+                "editorial de Hadoop: The Definitive Guide",
+                "mencioname la editorial de Hadoop: The Definitive Guide"
+            ],
+            "responses": [
+                "La editorial del libro 'Hadoop: The Definitive Guide' es O'Reilly Media.",
+                "La editorial es O'Reilly Media."
+            ]
+        },
+        {
+            "tag": "isbn_hadoop:_the_definitive_guide",
+            "patterns": [
+                "cual es el isbn de Hadoop: The Definitive Guide",
+                "dame el isbn de Hadoop: The Definitive Guide",
+                "isbn del libro Hadoop: The Definitive Guide"
+            ],
+            "responses": [
+                "El ISBN del libro 'Hadoop: The Definitive Guide' es 978-1491901632."
+            ]
+        },
+        {
+            "tag": "paginas_a_first_course_in_database_systems",
+            "patterns": [
+                "cuantas paginas tiene el libro A First Course in Database Systems",
+                "paginas de A First Course in Database Systems",
+                "numero de paginas de A First Course in Database Systems",
+                "dame las paginas de A First Course in Database Systems",
+                "cuantas páginas tiene A First Course in Database Systems"
+            ],
+            "responses": [
+                "El libro 'A First Course in Database Systems' tiene 648 páginas."
+            ]
+        },
+        {
+            "tag": "autor_a_first_course_in_database_systems",
+            "patterns": [
+                "quien es el autor del libro A First Course in Database Systems",
+                "autor de A First Course in Database Systems",
+                "quien escribio A First Course in Database Systems",
+                "quienes son los autores del libro A First Course in Database Systems"
+            ],
+            "responses": [
+                "El autor del libro 'A First Course in Database Systems' es Jeffrey D. Ullman.",
+                "Su autor es Jeffrey D. Ullman."
+            ]
+        },
+        {
+            "tag": "descripcion_a_first_course_in_database_systems",
+            "patterns": [
+                "dame la descripción del libro A First Course in Database Systems",
+                "descripcion de A First Course in Database Systems",
+                "descripción de A First Course in Database Systems",
+                "de que trata el libro A First Course in Database Systems"
+            ],
+            "responses": [
+                "La descripción del libro 'A First Course in Database Systems' es: \"Presenta los fundamentos de los sistemas de bases de datos modernos, con un enfoque en el diseño, uso y implementación.\". Es de la editorial Pearson con ISBN 978-0134731362."
+            ]
+        },
+        {
+            "tag": "editorial_a_first_course_in_database_systems",
+            "patterns": [
+                "cual es la editorial de A First Course in Database Systems",
+                "editorial de A First Course in Database Systems",
+                "mencioname la editorial de A First Course in Database Systems"
+            ],
+            "responses": [
+                "La editorial del libro 'A First Course in Database Systems' es Pearson.",
+                "La editorial es Pearson."
+            ]
+        },
+        {
+            "tag": "isbn_a_first_course_in_database_systems",
+            "patterns": [
+                "cual es el isbn de A First Course in Database Systems",
+                "dame el isbn de A First Course in Database Systems",
+                "isbn del libro A First Course in Database Systems"
+            ],
+            "responses": [
+                "El ISBN del libro 'A First Course in Database Systems' es 978-0134731362."
+            ]
+        },
+        {
+            "tag": "paginas_análisis_de_datos_con_python",
+            "patterns": [
+                "cuantas paginas tiene el libro Análisis de Datos con Python",
+                "paginas de Análisis de Datos con Python",
+                "numero de paginas de Análisis de Datos con Python",
+                "dame las paginas de Análisis de Datos con Python",
+                "cuantas páginas tiene Análisis de Datos con Python"
+            ],
+            "responses": [
+                "El libro 'Análisis de Datos con Python' tiene 320 páginas."
+            ]
+        },
+        {
+            "tag": "autor_análisis_de_datos_con_python",
+            "patterns": [
+                "quien es el autor del libro Análisis de Datos con Python",
+                "autor de Análisis de Datos con Python",
+                "quien escribio Análisis de Datos con Python",
+                "quienes son los autores del libro Análisis de Datos con Python"
+            ],
+            "responses": [
+                "El autor del libro 'Análisis de Datos con Python' es Juan Pérez.",
+                "Su autor es Juan Pérez."
+            ]
+        },
+        {
+            "tag": "descripcion_análisis_de_datos_con_python",
+            "patterns": [
+                "dame la descripción del libro Análisis de Datos con Python",
+                "descripcion de Análisis de Datos con Python",
+                "descripción de Análisis de Datos con Python",
+                "de que trata el libro Análisis de Datos con Python"
+            ],
+            "responses": [
+                "La descripción del libro 'Análisis de Datos con Python' es: \"Guía práctica para el análisis de datos usando Python y librerías como pandas y matplotlib.\". Es de la editorial Marcombo con ISBN 978-8499642837."
+            ]
+        },
+        {
+            "tag": "editorial_análisis_de_datos_con_python",
+            "patterns": [
+                "cual es la editorial de Análisis de Datos con Python",
+                "editorial de Análisis de Datos con Python",
+                "mencioname la editorial de Análisis de Datos con Python"
+            ],
+            "responses": [
+                "La editorial del libro 'Análisis de Datos con Python' es Marcombo.",
+                "La editorial es Marcombo."
+            ]
+        },
+        {
+            "tag": "isbn_análisis_de_datos_con_python",
+            "patterns": [
+                "cual es el isbn de Análisis de Datos con Python",
+                "dame el isbn de Análisis de Datos con Python",
+                "isbn del libro Análisis de Datos con Python"
+            ],
+            "responses": [
+                "El ISBN del libro 'Análisis de Datos con Python' es 978-8499642837."
+            ]
+        },
+        {
+            "tag": "paginas_bases_de_datos:_diseño,_implementación_y_administración",
+            "patterns": [
+                "cuantas paginas tiene el libro Bases de Datos: Diseño, Implementación y Administración",
+                "paginas de Bases de Datos: Diseño, Implementación y Administración",
+                "numero de paginas de Bases de Datos: Diseño, Implementación y Administración",
+                "dame las paginas de Bases de Datos: Diseño, Implementación y Administración",
+                "cuantas páginas tiene Bases de Datos: Diseño, Implementación y Administración"
+            ],
+            "responses": [
+                "El libro 'Bases de Datos: Diseño, Implementación y Administración' tiene 450 páginas."
+            ]
+        },
+        {
+            "tag": "autor_bases_de_datos:_diseño,_implementación_y_administración",
+            "patterns": [
+                "quien es el autor del libro Bases de Datos: Diseño, Implementación y Administración",
+                "autor de Bases de Datos: Diseño, Implementación y Administración",
+                "quien escribio Bases de Datos: Diseño, Implementación y Administración",
+                "quienes son los autores del libro Bases de Datos: Diseño, Implementación y Administración"
+            ],
+            "responses": [
+                "El autor del libro 'Bases de Datos: Diseño, Implementación y Administración' es María Gómez.",
+                "Su autor es María Gómez."
+            ]
+        },
+        {
+            "tag": "descripcion_bases_de_datos:_diseño,_implementación_y_administración",
+            "patterns": [
+                "dame la descripción del libro Bases de Datos: Diseño, Implementación y Administración",
+                "descripcion de Bases de Datos: Diseño, Implementación y Administración",
+                "descripción de Bases de Datos: Diseño, Implementación y Administración",
+                "de que trata el libro Bases de Datos: Diseño, Implementación y Administración"
+            ],
+            "responses": [
+                "La descripción del libro 'Bases de Datos: Diseño, Implementación y Administración' es: \"Manual completo sobre diseño, implementación y administración de bases de datos relacionales.\". Es de la editorial McGraw-Hill con ISBN 978-6071508560."
+            ]
+        },
+        {
+            "tag": "editorial_bases_de_datos:_diseño,_implementación_y_administración",
+            "patterns": [
+                "cual es la editorial de Bases de Datos: Diseño, Implementación y Administración",
+                "editorial de Bases de Datos: Diseño, Implementación y Administración",
+                "mencioname la editorial de Bases de Datos: Diseño, Implementación y Administración"
+            ],
+            "responses": [
+                "La editorial del libro 'Bases de Datos: Diseño, Implementación y Administración' es McGraw-Hill.",
+                "La editorial es McGraw-Hill."
+            ]
+        },
+        {
+            "tag": "isbn_bases_de_datos:_diseño,_implementación_y_administración",
+            "patterns": [
+                "cual es el isbn de Bases de Datos: Diseño, Implementación y Administración",
+                "dame el isbn de Bases de Datos: Diseño, Implementación y Administración",
+                "isbn del libro Bases de Datos: Diseño, Implementación y Administración"
+            ],
+            "responses": [
+                "El ISBN del libro 'Bases de Datos: Diseño, Implementación y Administración' es 978-6071508560."
+            ]
+        },
+        {
+            "tag": "paginas_programación_en_python:_fundamentos_y_aplicaciones",
+            "patterns": [
+                "cuantas paginas tiene el libro Programación en Python: Fundamentos y Aplicaciones",
+                "paginas de Programación en Python: Fundamentos y Aplicaciones",
+                "numero de paginas de Programación en Python: Fundamentos y Aplicaciones",
+                "dame las paginas de Programación en Python: Fundamentos y Aplicaciones",
+                "cuantas páginas tiene Programación en Python: Fundamentos y Aplicaciones"
+            ],
+            "responses": [
+                "El libro 'Programación en Python: Fundamentos y Aplicaciones' tiene 400 páginas."
+            ]
+        },
+        {
+            "tag": "autor_programación_en_python:_fundamentos_y_aplicaciones",
+            "patterns": [
+                "quien es el autor del libro Programación en Python: Fundamentos y Aplicaciones",
+                "autor de Programación en Python: Fundamentos y Aplicaciones",
+                "quien escribio Programación en Python: Fundamentos y Aplicaciones",
+                "quienes son los autores del libro Programación en Python: Fundamentos y Aplicaciones"
+            ],
+            "responses": [
+                "El autor del libro 'Programación en Python: Fundamentos y Aplicaciones' es Carlos Rámirez.",
+                "Su autor es Carlos Rámirez."
+            ]
+        },
+        {
+            "tag": "descripcion_programación_en_python:_fundamentos_y_aplicaciones",
+            "patterns": [
+                "dame la descripción del libro Programación en Python: Fundamentos y Aplicaciones",
+                "descripcion de Programación en Python: Fundamentos y Aplicaciones",
+                "descripción de Programación en Python: Fundamentos y Aplicaciones",
+                "de que trata el libro Programación en Python: Fundamentos y Aplicaciones"
+            ],
+            "responses": [
+                "La descripción del libro 'Programación en Python: Fundamentos y Aplicaciones' es: \"Introducción a la programación en Python con ejemplos y ejercicios prácticos.\". Es de la editorial Editorial UCA con ISBN 978-9875802370."
+            ]
+        },
+        {
+            "tag": "editorial_programación_en_python:_fundamentos_y_aplicaciones",
+            "patterns": [
+                "cual es la editorial de Programación en Python: Fundamentos y Aplicaciones",
+                "editorial de Programación en Python: Fundamentos y Aplicaciones",
+                "mencioname la editorial de Programación en Python: Fundamentos y Aplicaciones"
+            ],
+            "responses": [
+                "La editorial del libro 'Programación en Python: Fundamentos y Aplicaciones' es Editorial UCA.",
+                "La editorial es Editorial UCA."
+            ]
+        },
+        {
+            "tag": "isbn_programación_en_python:_fundamentos_y_aplicaciones",
+            "patterns": [
+                "cual es el isbn de Programación en Python: Fundamentos y Aplicaciones",
+                "dame el isbn de Programación en Python: Fundamentos y Aplicaciones",
+                "isbn del libro Programación en Python: Fundamentos y Aplicaciones"
+            ],
+            "responses": [
+                "El ISBN del libro 'Programación en Python: Fundamentos y Aplicaciones' es 978-9875802370."
+            ]
+        },
+        {
+            "tag": "paginas_big_data_y_analítica_avanzada",
+            "patterns": [
+                "cuantas paginas tiene el libro Big Data y Analítica Avanzada",
+                "paginas de Big Data y Analítica Avanzada",
+                "numero de paginas de Big Data y Analítica Avanzada",
+                "dame las paginas de Big Data y Analítica Avanzada",
+                "cuantas páginas tiene Big Data y Analítica Avanzada"
+            ],
+            "responses": [
+                "El libro 'Big Data y Analítica Avanzada' tiene 360 páginas."
+            ]
+        },
+        {
+            "tag": "autor_big_data_y_analítica_avanzada",
+            "patterns": [
+                "quien es el autor del libro Big Data y Analítica Avanzada",
+                "autor de Big Data y Analítica Avanzada",
+                "quien escribio Big Data y Analítica Avanzada",
+                "quienes son los autores del libro Big Data y Analítica Avanzada"
+            ],
+            "responses": [
+                "El autor del libro 'Big Data y Analítica Avanzada' es Ana Férnandez.",
+                "Su autor es Ana Férnandez."
+            ]
+        },
+        {
+            "tag": "descripcion_big_data_y_analítica_avanzada",
+            "patterns": [
+                "dame la descripción del libro Big Data y Analítica Avanzada",
+                "descripcion de Big Data y Analítica Avanzada",
+                "descripción de Big Data y Analítica Avanzada",
+                "de que trata el libro Big Data y Analítica Avanzada"
+            ],
+            "responses": [
+                "La descripción del libro 'Big Data y Analítica Avanzada' es: \"Conceptos y técnicas para el manejo y análisis de grandes volúmenes de datos.\". Es de la editorial Trillas con ISBN 978-6077414833."
+            ]
+        },
+        {
+            "tag": "editorial_big_data_y_analítica_avanzada",
+            "patterns": [
+                "cual es la editorial de Big Data y Analítica Avanzada",
+                "editorial de Big Data y Analítica Avanzada",
+                "mencioname la editorial de Big Data y Analítica Avanzada"
+            ],
+            "responses": [
+                "La editorial del libro 'Big Data y Analítica Avanzada' es Trillas.",
+                "La editorial es Trillas."
+            ]
+        },
+        {
+            "tag": "isbn_big_data_y_analítica_avanzada",
+            "patterns": [
+                "cual es el isbn de Big Data y Analítica Avanzada",
+                "dame el isbn de Big Data y Analítica Avanzada",
+                "isbn del libro Big Data y Analítica Avanzada"
+            ],
+            "responses": [
+                "El ISBN del libro 'Big Data y Analítica Avanzada' es 978-6077414833."
+            ]
+        },
+        {
+            "tag": "paginas_sql_para_profesionales",
+            "patterns": [
+                "cuantas paginas tiene el libro SQL para Profesionales",
+                "paginas de SQL para Profesionales",
+                "numero de paginas de SQL para Profesionales",
+                "dame las paginas de SQL para Profesionales",
+                "cuantas páginas tiene SQL para Profesionales"
+            ],
+            "responses": [
+                "El libro 'SQL para Profesionales' tiene 280 páginas."
+            ]
+        },
+        {
+            "tag": "autor_sql_para_profesionales",
+            "patterns": [
+                "quien es el autor del libro SQL para Profesionales",
+                "autor de SQL para Profesionales",
+                "quien escribio SQL para Profesionales",
+                "quienes son los autores del libro SQL para Profesionales"
+            ],
+            "responses": [
+                "El autor del libro 'SQL para Profesionales' es Luis Mártinez.",
+                "Su autor es Luis Mártinez."
+            ]
+        },
+        {
+            "tag": "descripcion_sql_para_profesionales",
+            "patterns": [
+                "dame la descripción del libro SQL para Profesionales",
+                "descripcion de SQL para Profesionales",
+                "descripción de SQL para Profesionales",
+                "de que trata el libro SQL para Profesionales"
+            ],
+            "responses": [
+                "La descripción del libro 'SQL para Profesionales' es: \"Curso completo de SQL orientado a profesionales de TI y analistas de datos.\". Es de la editorial Alphaomega con ISBN 978-9877112315."
+            ]
+        },
+        {
+            "tag": "editorial_sql_para_profesionales",
+            "patterns": [
+                "cual es la editorial de SQL para Profesionales",
+                "editorial de SQL para Profesionales",
+                "mencioname la editorial de SQL para Profesionales"
+            ],
+            "responses": [
+                "La editorial del libro 'SQL para Profesionales' es Alphaomega.",
+                "La editorial es Alphaomega."
+            ]
+        },
+        {
+            "tag": "isbn_sql_para_profesionales",
+            "patterns": [
+                "cual es el isbn de SQL para Profesionales",
+                "dame el isbn de SQL para Profesionales",
+                "isbn del libro SQL para Profesionales"
+            ],
+            "responses": [
+                "El ISBN del libro 'SQL para Profesionales' es 978-9877112315."
+            ]
+        },
+        {
+            "tag": "paginas_introducción_a_la_minería_de_datos",
+            "patterns": [
+                "cuantas paginas tiene el libro Introducción a la Minería de Datos",
+                "paginas de Introducción a la Minería de Datos",
+                "numero de paginas de Introducción a la Minería de Datos",
+                "dame las paginas de Introducción a la Minería de Datos",
+                "cuantas páginas tiene Introducción a la Minería de Datos"
+            ],
+            "responses": [
+                "El libro 'Introducción a la Minería de Datos' tiene 350 páginas."
+            ]
+        },
+        {
+            "tag": "autor_introducción_a_la_minería_de_datos",
+            "patterns": [
+                "quien es el autor del libro Introducción a la Minería de Datos",
+                "autor de Introducción a la Minería de Datos",
+                "quien escribio Introducción a la Minería de Datos",
+                "quienes son los autores del libro Introducción a la Minería de Datos"
+            ],
+            "responses": [
+                "El autor del libro 'Introducción a la Minería de Datos' es Sofía Rodríguez.",
+                "Su autor es Sofía Rodríguez."
+            ]
+        },
+        {
+            "tag": "descripcion_introducción_a_la_minería_de_datos",
+            "patterns": [
+                "dame la descripción del libro Introducción a la Minería de Datos",
+                "descripcion de Introducción a la Minería de Datos",
+                "descripción de Introducción a la Minería de Datos",
+                "de que trata el libro Introducción a la Minería de Datos"
+            ],
+            "responses": [
+                "La descripción del libro 'Introducción a la Minería de Datos' es: \"Conceptos y algoritmos para descubrir conocimiento en grandes bases de datos.\". Es de la editorial McGraw-Hill con ISBN 978-6071508799."
+            ]
+        },
+        {
+            "tag": "editorial_introducción_a_la_minería_de_datos",
+            "patterns": [
+                "cual es la editorial de Introducción a la Minería de Datos",
+                "editorial de Introducción a la Minería de Datos",
+                "mencioname la editorial de Introducción a la Minería de Datos"
+            ],
+            "responses": [
+                "La editorial del libro 'Introducción a la Minería de Datos' es McGraw-Hill.",
+                "La editorial es McGraw-Hill."
+            ]
+        },
+        {
+            "tag": "isbn_introducción_a_la_minería_de_datos",
+            "patterns": [
+                "cual es el isbn de Introducción a la Minería de Datos",
+                "dame el isbn de Introducción a la Minería de Datos",
+                "isbn del libro Introducción a la Minería de Datos"
+            ],
+            "responses": [
+                "El ISBN del libro 'Introducción a la Minería de Datos' es 978-6071508799."
+            ]
+        },
+        {
+            "tag": "paginas_desarrollo_de_software_ágil",
+            "patterns": [
+                "cuantas paginas tiene el libro Desarrollo de Software Ágil",
+                "paginas de Desarrollo de Software Ágil",
+                "numero de paginas de Desarrollo de Software Ágil",
+                "dame las paginas de Desarrollo de Software Ágil",
+                "cuantas páginas tiene Desarrollo de Software Ágil"
+            ],
+            "responses": [
+                "El libro 'Desarrollo de Software Ágil' tiene 300 páginas."
+            ]
+        },
+        {
+            "tag": "autor_desarrollo_de_software_ágil",
+            "patterns": [
+                "quien es el autor del libro Desarrollo de Software Ágil",
+                "autor de Desarrollo de Software Ágil",
+                "quien escribio Desarrollo de Software Ágil",
+                "quienes son los autores del libro Desarrollo de Software Ágil"
+            ],
+            "responses": [
+                "El autor del libro 'Desarrollo de Software Ágil' es Miguel Torres.",
+                "Su autor es Miguel Torres."
+            ]
+        },
+        {
+            "tag": "descripcion_desarrollo_de_software_ágil",
+            "patterns": [
+                "dame la descripción del libro Desarrollo de Software Ágil",
+                "descripcion de Desarrollo de Software Ágil",
+                "descripción de Desarrollo de Software Ágil",
+                "de que trata el libro Desarrollo de Software Ágil"
+            ],
+            "responses": [
+                "La descripción del libro 'Desarrollo de Software Ágil' es: \"Metodologías ágiles para gestión y desarrollo eficiente de software.\". Es de la editorial Ecoe Ediciones con ISBN 978-9584708176."
+            ]
+        },
+        {
+            "tag": "editorial_desarrollo_de_software_ágil",
+            "patterns": [
+                "cual es la editorial de Desarrollo de Software Ágil",
+                "editorial de Desarrollo de Software Ágil",
+                "mencioname la editorial de Desarrollo de Software Ágil"
+            ],
+            "responses": [
+                "La editorial del libro 'Desarrollo de Software Ágil' es Ecoe Ediciones.",
+                "La editorial es Ecoe Ediciones."
+            ]
+        },
+        {
+            "tag": "isbn_desarrollo_de_software_ágil",
+            "patterns": [
+                "cual es el isbn de Desarrollo de Software Ágil",
+                "dame el isbn de Desarrollo de Software Ágil",
+                "isbn del libro Desarrollo de Software Ágil"
+            ],
+            "responses": [
+                "El ISBN del libro 'Desarrollo de Software Ágil' es 978-9584708176."
+            ]
+        },
+        {
+            "tag": "paginas_machine_learning_con_python",
+            "patterns": [
+                "cuantas paginas tiene el libro Machine Learning con Python",
+                "paginas de Machine Learning con Python",
+                "numero de paginas de Machine Learning con Python",
+                "dame las paginas de Machine Learning con Python",
+                "cuantas páginas tiene Machine Learning con Python"
+            ],
+            "responses": [
+                "El libro 'Machine Learning con Python' tiene 380 páginas."
+            ]
+        },
+        {
+            "tag": "autor_machine_learning_con_python",
+            "patterns": [
+                "quien es el autor del libro Machine Learning con Python",
+                "autor de Machine Learning con Python",
+                "quien escribio Machine Learning con Python",
+                "quienes son los autores del libro Machine Learning con Python"
+            ],
+            "responses": [
+                "El autor del libro 'Machine Learning con Python' es Laura Sanchéz.",
+                "Su autor es Laura Sanchéz."
+            ]
+        },
+        {
+            "tag": "descripcion_machine_learning_con_python",
+            "patterns": [
+                "dame la descripción del libro Machine Learning con Python",
+                "descripcion de Machine Learning con Python",
+                "descripción de Machine Learning con Python",
+                "de que trata el libro Machine Learning con Python"
+            ],
+            "responses": [
+                "La descripción del libro 'Machine Learning con Python' es: \"Aprendizaje automático aplicado con Python y sus librerías más populares.\". Es de la editorial Marcombo con ISBN 978-8499644183."
+            ]
+        },
+        {
+            "tag": "editorial_machine_learning_con_python",
+            "patterns": [
+                "cual es la editorial de Machine Learning con Python",
+                "editorial de Machine Learning con Python",
+                "mencioname la editorial de Machine Learning con Python"
+            ],
+            "responses": [
+                "La editorial del libro 'Machine Learning con Python' es Marcombo.",
+                "La editorial es Marcombo."
+            ]
+        },
+        {
+            "tag": "isbn_machine_learning_con_python",
+            "patterns": [
+                "cual es el isbn de Machine Learning con Python",
+                "dame el isbn de Machine Learning con Python",
+                "isbn del libro Machine Learning con Python"
+            ],
+            "responses": [
+                "El ISBN del libro 'Machine Learning con Python' es 978-8499644183."
+            ]
+        },
+        {
+            "tag": "paginas_administración_de_bases_de_datos_oracle",
+            "patterns": [
+                "cuantas paginas tiene el libro Administración de Bases de Datos Oracle",
+                "paginas de Administración de Bases de Datos Oracle",
+                "numero de paginas de Administración de Bases de Datos Oracle",
+                "dame las paginas de Administración de Bases de Datos Oracle",
+                "cuantas páginas tiene Administración de Bases de Datos Oracle"
+            ],
+            "responses": [
+                "El libro 'Administración de Bases de Datos Oracle' tiene 420 páginas."
+            ]
+        },
+        {
+            "tag": "autor_administración_de_bases_de_datos_oracle",
+            "patterns": [
+                "quien es el autor del libro Administración de Bases de Datos Oracle",
+                "autor de Administración de Bases de Datos Oracle",
+                "quien escribio Administración de Bases de Datos Oracle",
+                "quienes son los autores del libro Administración de Bases de Datos Oracle"
+            ],
+            "responses": [
+                "El autor del libro 'Administración de Bases de Datos Oracle' es Andrés Morales.",
+                "Su autor es Andrés Morales."
+            ]
+        },
+        {
+            "tag": "descripcion_administración_de_bases_de_datos_oracle",
+            "patterns": [
+                "dame la descripción del libro Administración de Bases de Datos Oracle",
+                "descripcion de Administración de Bases de Datos Oracle",
+                "descripción de Administración de Bases de Datos Oracle",
+                "de que trata el libro Administración de Bases de Datos Oracle"
+            ],
+            "responses": [
+                "La descripción del libro 'Administración de Bases de Datos Oracle' es: \"Guía para la instalación, configuración y administración de bases de datos Oracle.\". Es de la editorial McGraw-Hill con ISBN 978-6071509420."
+            ]
+        },
+        {
+            "tag": "editorial_administración_de_bases_de_datos_oracle",
+            "patterns": [
+                "cual es la editorial de Administración de Bases de Datos Oracle",
+                "editorial de Administración de Bases de Datos Oracle",
+                "mencioname la editorial de Administración de Bases de Datos Oracle"
+            ],
+            "responses": [
+                "La editorial del libro 'Administración de Bases de Datos Oracle' es McGraw-Hill.",
+                "La editorial es McGraw-Hill."
+            ]
+        },
+        {
+            "tag": "isbn_administración_de_bases_de_datos_oracle",
+            "patterns": [
+                "cual es el isbn de Administración de Bases de Datos Oracle",
+                "dame el isbn de Administración de Bases de Datos Oracle",
+                "isbn del libro Administración de Bases de Datos Oracle"
+            ],
+            "responses": [
+                "El ISBN del libro 'Administración de Bases de Datos Oracle' es 978-6071509420."
+            ]
+        },
+        {
+            "tag": "paginas_programación_orientada_a_objetos_con_java",
+            "patterns": [
+                "cuantas paginas tiene el libro Programación Orientada a Objetos con Java",
+                "paginas de Programación Orientada a Objetos con Java",
+                "numero de paginas de Programación Orientada a Objetos con Java",
+                "dame las paginas de Programación Orientada a Objetos con Java",
+                "cuantas páginas tiene Programación Orientada a Objetos con Java"
+            ],
+            "responses": [
+                "El libro 'Programación Orientada a Objetos con Java' tiene 450 páginas."
+            ]
+        },
+        {
+            "tag": "autor_programación_orientada_a_objetos_con_java",
+            "patterns": [
+                "quien es el autor del libro Programación Orientada a Objetos con Java",
+                "autor de Programación Orientada a Objetos con Java",
+                "quien escribio Programación Orientada a Objetos con Java",
+                "quienes son los autores del libro Programación Orientada a Objetos con Java"
+            ],
+            "responses": [
+                "El autor del libro 'Programación Orientada a Objetos con Java' es Patricia Díaz.",
+                "Su autor es Patricia Díaz."
+            ]
+        },
+        {
+            "tag": "descripcion_programación_orientada_a_objetos_con_java",
+            "patterns": [
+                "dame la descripción del libro Programación Orientada a Objetos con Java",
+                "descripcion de Programación Orientada a Objetos con Java",
+                "descripción de Programación Orientada a Objetos con Java",
+                "de que trata el libro Programación Orientada a Objetos con Java"
+            ],
+            "responses": [
+                "La descripción del libro 'Programación Orientada a Objetos con Java' es: \"Fundamentos y mejores prácticas de programación orientada a objetos en Java.\". Es de la editorial McGraw-Hill con ISBN 978-9588825573."
+            ]
+        },
+        {
+            "tag": "editorial_programación_orientada_a_objetos_con_java",
+            "patterns": [
+                "cual es la editorial de Programación Orientada a Objetos con Java",
+                "editorial de Programación Orientada a Objetos con Java",
+                "mencioname la editorial de Programación Orientada a Objetos con Java"
+            ],
+            "responses": [
+                "La editorial del libro 'Programación Orientada a Objetos con Java' es McGraw-Hill.",
+                "La editorial es McGraw-Hill."
+            ]
+        },
+        {
+            "tag": "isbn_programación_orientada_a_objetos_con_java",
+            "patterns": [
+                "cual es el isbn de Programación Orientada a Objetos con Java",
+                "dame el isbn de Programación Orientada a Objetos con Java",
+                "isbn del libro Programación Orientada a Objetos con Java"
+            ],
+            "responses": [
+                "El ISBN del libro 'Programación Orientada a Objetos con Java' es 978-9588825573."
+            ]
+        },
+        {
+            "tag": "paginas_fundamentos_de_programación_en_c",
+            "patterns": [
+                "cuantas paginas tiene el libro Fundamentos de Programación en C",
+                "paginas de Fundamentos de Programación en C",
+                "numero de paginas de Fundamentos de Programación en C",
+                "dame las paginas de Fundamentos de Programación en C",
+                "cuantas páginas tiene Fundamentos de Programación en C"
+            ],
+            "responses": [
+                "El libro 'Fundamentos de Programación en C' tiene 350 páginas."
+            ]
+        },
+        {
+            "tag": "autor_fundamentos_de_programación_en_c",
+            "patterns": [
+                "quien es el autor del libro Fundamentos de Programación en C",
+                "autor de Fundamentos de Programación en C",
+                "quien escribio Fundamentos de Programación en C",
+                "quienes son los autores del libro Fundamentos de Programación en C"
+            ],
+            "responses": [
+                "El autor del libro 'Fundamentos de Programación en C' es Sofía Rodríguez.",
+                "Su autor es Sofía Rodríguez."
+            ]
+        },
+        {
+            "tag": "descripcion_fundamentos_de_programación_en_c",
+            "patterns": [
+                "dame la descripción del libro Fundamentos de Programación en C",
+                "descripcion de Fundamentos de Programación en C",
+                "descripción de Fundamentos de Programación en C",
+                "de que trata el libro Fundamentos de Programación en C"
+            ],
+            "responses": [
+                "La descripción del libro 'Fundamentos de Programación en C' es: \"Introducción a la programación con el lenguaje C, conceptos básicos y estructuras de datos.\". Es de la editorial Ediciones U con ISBN 978-9875801234."
+            ]
+        },
+        {
+            "tag": "editorial_fundamentos_de_programación_en_c",
+            "patterns": [
+                "cual es la editorial de Fundamentos de Programación en C",
+                "editorial de Fundamentos de Programación en C",
+                "mencioname la editorial de Fundamentos de Programación en C"
+            ],
+            "responses": [
+                "La editorial del libro 'Fundamentos de Programación en C' es Ediciones U.",
+                "La editorial es Ediciones U."
+            ]
+        },
+        {
+            "tag": "isbn_fundamentos_de_programación_en_c",
+            "patterns": [
+                "cual es el isbn de Fundamentos de Programación en C",
+                "dame el isbn de Fundamentos de Programación en C",
+                "isbn del libro Fundamentos de Programación en C"
+            ],
+            "responses": [
+                "El ISBN del libro 'Fundamentos de Programación en C' es 978-9875801234."
+            ]
+        },
+        {
+            "tag": "paginas_java_para_principiantes",
+            "patterns": [
+                "cuantas paginas tiene el libro Java para Principiantes",
+                "paginas de Java para Principiantes",
+                "numero de paginas de Java para Principiantes",
+                "dame las paginas de Java para Principiantes",
+                "cuantas páginas tiene Java para Principiantes"
+            ],
+            "responses": [
+                "El libro 'Java para Principiantes' tiene 420 páginas."
+            ]
+        },
+        {
+            "tag": "autor_java_para_principiantes",
+            "patterns": [
+                "quien es el autor del libro Java para Principiantes",
+                "autor de Java para Principiantes",
+                "quien escribio Java para Principiantes",
+                "quienes son los autores del libro Java para Principiantes"
+            ],
+            "responses": [
+                "El autor del libro 'Java para Principiantes' es Miguel Torres.",
+                "Su autor es Miguel Torres."
+            ]
+        },
+        {
+            "tag": "descripcion_java_para_principiantes",
+            "patterns": [
+                "dame la descripción del libro Java para Principiantes",
+                "descripcion de Java para Principiantes",
+                "descripción de Java para Principiantes",
+                "de que trata el libro Java para Principiantes"
+            ],
+            "responses": [
+                "La descripción del libro 'Java para Principiantes' es: \"Guía paso a paso para aprender programación en Java desde cero.\". Es de la editorial Marcombo con ISBN 978-6071508454."
+            ]
+        },
+        {
+            "tag": "editorial_java_para_principiantes",
+            "patterns": [
+                "cual es la editorial de Java para Principiantes",
+                "editorial de Java para Principiantes",
+                "mencioname la editorial de Java para Principiantes"
+            ],
+            "responses": [
+                "La editorial del libro 'Java para Principiantes' es Marcombo.",
+                "La editorial es Marcombo."
+            ]
+        },
+        {
+            "tag": "isbn_java_para_principiantes",
+            "patterns": [
+                "cual es el isbn de Java para Principiantes",
+                "dame el isbn de Java para Principiantes",
+                "isbn del libro Java para Principiantes"
+            ],
+            "responses": [
+                "El ISBN del libro 'Java para Principiantes' es 978-6071508454."
+            ]
+        },
+        {
+            "tag": "paginas_desarrollo_web_con_javascript",
+            "patterns": [
+                "cuantas paginas tiene el libro Desarrollo Web con JavaScript",
+                "paginas de Desarrollo Web con JavaScript",
+                "numero de paginas de Desarrollo Web con JavaScript",
+                "dame las paginas de Desarrollo Web con JavaScript",
+                "cuantas páginas tiene Desarrollo Web con JavaScript"
+            ],
+            "responses": [
+                "El libro 'Desarrollo Web con JavaScript' tiene 380 páginas."
+            ]
+        },
+        {
+            "tag": "autor_desarrollo_web_con_javascript",
+            "patterns": [
+                "quien es el autor del libro Desarrollo Web con JavaScript",
+                "autor de Desarrollo Web con JavaScript",
+                "quien escribio Desarrollo Web con JavaScript",
+                "quienes son los autores del libro Desarrollo Web con JavaScript"
+            ],
+            "responses": [
+                "El autor del libro 'Desarrollo Web con JavaScript' es Laura Sanchéz.",
+                "Su autor es Laura Sanchéz."
+            ]
+        },
+        {
+            "tag": "descripcion_desarrollo_web_con_javascript",
+            "patterns": [
+                "dame la descripción del libro Desarrollo Web con JavaScript",
+                "descripcion de Desarrollo Web con JavaScript",
+                "descripción de Desarrollo Web con JavaScript",
+                "de que trata el libro Desarrollo Web con JavaScript"
+            ],
+            "responses": [
+                "La descripción del libro 'Desarrollo Web con JavaScript' es: \"Aprende a crear aplicaciones web interactivas usando JavaScript y HTML5.\". Es de la editorial Anaya Multimedia con ISBN 978-9876543210."
+            ]
+        },
+        {
+            "tag": "editorial_desarrollo_web_con_javascript",
+            "patterns": [
+                "cual es la editorial de Desarrollo Web con JavaScript",
+                "editorial de Desarrollo Web con JavaScript",
+                "mencioname la editorial de Desarrollo Web con JavaScript"
+            ],
+            "responses": [
+                "La editorial del libro 'Desarrollo Web con JavaScript' es Anaya Multimedia.",
+                "La editorial es Anaya Multimedia."
+            ]
+        },
+        {
+            "tag": "isbn_desarrollo_web_con_javascript",
+            "patterns": [
+                "cual es el isbn de Desarrollo Web con JavaScript",
+                "dame el isbn de Desarrollo Web con JavaScript",
+                "isbn del libro Desarrollo Web con JavaScript"
+            ],
+            "responses": [
+                "El ISBN del libro 'Desarrollo Web con JavaScript' es 978-9876543210."
+            ]
+        },
+        {
+            "tag": "paginas_programación_orientada_a_objetos_con_c++",
+            "patterns": [
+                "cuantas paginas tiene el libro Programación Orientada a Objetos con C++",
+                "paginas de Programación Orientada a Objetos con C++",
+                "numero de paginas de Programación Orientada a Objetos con C++",
+                "dame las paginas de Programación Orientada a Objetos con C++",
+                "cuantas páginas tiene Programación Orientada a Objetos con C++"
+            ],
+            "responses": [
+                "El libro 'Programación Orientada a Objetos con C++' tiene 400 páginas."
+            ]
+        },
+        {
+            "tag": "autor_programación_orientada_a_objetos_con_c++",
+            "patterns": [
+                "quien es el autor del libro Programación Orientada a Objetos con C++",
+                "autor de Programación Orientada a Objetos con C++",
+                "quien escribio Programación Orientada a Objetos con C++",
+                "quienes son los autores del libro Programación Orientada a Objetos con C++"
+            ],
+            "responses": [
+                "El autor del libro 'Programación Orientada a Objetos con C++' es Andrés Morales.",
+                "Su autor es Andrés Morales."
+            ]
+        },
+        {
+            "tag": "descripcion_programación_orientada_a_objetos_con_c++",
+            "patterns": [
+                "dame la descripción del libro Programación Orientada a Objetos con C++",
+                "descripcion de Programación Orientada a Objetos con C++",
+                "descripción de Programación Orientada a Objetos con C++",
+                "de que trata el libro Programación Orientada a Objetos con C++"
+            ],
+            "responses": [
+                "La descripción del libro 'Programación Orientada a Objetos con C++' es: \"Conceptos y práctica de la programación orientada a objetos utilizando C++.\". Es de la editorial Trillas con ISBN 978-6077420026."
+            ]
+        },
+        {
+            "tag": "editorial_programación_orientada_a_objetos_con_c++",
+            "patterns": [
+                "cual es la editorial de Programación Orientada a Objetos con C++",
+                "editorial de Programación Orientada a Objetos con C++",
+                "mencioname la editorial de Programación Orientada a Objetos con C++"
+            ],
+            "responses": [
+                "La editorial del libro 'Programación Orientada a Objetos con C++' es Trillas.",
+                "La editorial es Trillas."
+            ]
+        },
+        {
+            "tag": "isbn_programación_orientada_a_objetos_con_c++",
+            "patterns": [
+                "cual es el isbn de Programación Orientada a Objetos con C++",
+                "dame el isbn de Programación Orientada a Objetos con C++",
+                "isbn del libro Programación Orientada a Objetos con C++"
+            ],
+            "responses": [
+                "El ISBN del libro 'Programación Orientada a Objetos con C++' es 978-6077420026."
+            ]
+        },
+        {
+            "tag": "paginas_python_para_ciencia_de_datos",
+            "patterns": [
+                "cuantas paginas tiene el libro Python para Ciencia de Datos",
+                "paginas de Python para Ciencia de Datos",
+                "numero de paginas de Python para Ciencia de Datos",
+                "dame las paginas de Python para Ciencia de Datos",
+                "cuantas páginas tiene Python para Ciencia de Datos"
+            ],
+            "responses": [
+                "El libro 'Python para Ciencia de Datos' tiene 300 páginas."
+            ]
+        },
+        {
+            "tag": "autor_python_para_ciencia_de_datos",
+            "patterns": [
+                "quien es el autor del libro Python para Ciencia de Datos",
+                "autor de Python para Ciencia de Datos",
+                "quien escribio Python para Ciencia de Datos",
+                "quienes son los autores del libro Python para Ciencia de Datos"
+            ],
+            "responses": [
+                "El autor del libro 'Python para Ciencia de Datos' es Patricia Díaz.",
+                "Su autor es Patricia Díaz."
+            ]
+        },
+        {
+            "tag": "descripcion_python_para_ciencia_de_datos",
+            "patterns": [
+                "dame la descripción del libro Python para Ciencia de Datos",
+                "descripcion de Python para Ciencia de Datos",
+                "descripción de Python para Ciencia de Datos",
+                "de que trata el libro Python para Ciencia de Datos"
+            ],
+            "responses": [
+                "La descripción del libro 'Python para Ciencia de Datos' es: \"Introducción a Python enfocado en análisis y visualización de datos.\". Es de la editorial Marcombo con ISBN 978-8499643124."
+            ]
+        },
+        {
+            "tag": "editorial_python_para_ciencia_de_datos",
+            "patterns": [
+                "cual es la editorial de Python para Ciencia de Datos",
+                "editorial de Python para Ciencia de Datos",
+                "mencioname la editorial de Python para Ciencia de Datos"
+            ],
+            "responses": [
+                "La editorial del libro 'Python para Ciencia de Datos' es Marcombo.",
+                "La editorial es Marcombo."
+            ]
+        },
+        {
+            "tag": "isbn_python_para_ciencia_de_datos",
+            "patterns": [
+                "cual es el isbn de Python para Ciencia de Datos",
+                "dame el isbn de Python para Ciencia de Datos",
+                "isbn del libro Python para Ciencia de Datos"
+            ],
+            "responses": [
+                "El ISBN del libro 'Python para Ciencia de Datos' es 978-8499643124."
+            ]
+        },
+        {
+            "tag": "paginas_algoritmos_y_estructuras_de_datos",
+            "patterns": [
+                "cuantas paginas tiene el libro Algoritmos y Estructuras de Datos",
+                "paginas de Algoritmos y Estructuras de Datos",
+                "numero de paginas de Algoritmos y Estructuras de Datos",
+                "dame las paginas de Algoritmos y Estructuras de Datos",
+                "cuantas páginas tiene Algoritmos y Estructuras de Datos"
+            ],
+            "responses": [
+                "El libro 'Algoritmos y Estructuras de Datos' tiene 480 páginas."
+            ]
+        },
+        {
+            "tag": "autor_algoritmos_y_estructuras_de_datos",
+            "patterns": [
+                "quien es el autor del libro Algoritmos y Estructuras de Datos",
+                "autor de Algoritmos y Estructuras de Datos",
+                "quien escribio Algoritmos y Estructuras de Datos",
+                "quienes son los autores del libro Algoritmos y Estructuras de Datos"
+            ],
+            "responses": [
+                "El autor del libro 'Algoritmos y Estructuras de Datos' es Enrique López.",
+                "Su autor es Enrique López."
+            ]
+        },
+        {
+            "tag": "descripcion_algoritmos_y_estructuras_de_datos",
+            "patterns": [
+                "dame la descripción del libro Algoritmos y Estructuras de Datos",
+                "descripcion de Algoritmos y Estructuras de Datos",
+                "descripción de Algoritmos y Estructuras de Datos",
+                "de que trata el libro Algoritmos y Estructuras de Datos"
+            ],
+            "responses": [
+                "La descripción del libro 'Algoritmos y Estructuras de Datos' es: \"Libro esencial sobre diseño y análisis de algoritmos y estructuras fundamentales.\". Es de la editorial McGraw-Hill con ISBN 978-6071513243."
+            ]
+        },
+        {
+            "tag": "editorial_algoritmos_y_estructuras_de_datos",
+            "patterns": [
+                "cual es la editorial de Algoritmos y Estructuras de Datos",
+                "editorial de Algoritmos y Estructuras de Datos",
+                "mencioname la editorial de Algoritmos y Estructuras de Datos"
+            ],
+            "responses": [
+                "La editorial del libro 'Algoritmos y Estructuras de Datos' es McGraw-Hill.",
+                "La editorial es McGraw-Hill."
+            ]
+        },
+        {
+            "tag": "isbn_algoritmos_y_estructuras_de_datos",
+            "patterns": [
+                "cual es el isbn de Algoritmos y Estructuras de Datos",
+                "dame el isbn de Algoritmos y Estructuras de Datos",
+                "isbn del libro Algoritmos y Estructuras de Datos"
+            ],
+            "responses": [
+                "El ISBN del libro 'Algoritmos y Estructuras de Datos' es 978-6071513243."
+            ]
+        },
+        {
+            "tag": "paginas_introducción_a_la_programación_funcional",
+            "patterns": [
+                "cuantas paginas tiene el libro Introducción a la Programación Funcional",
+                "paginas de Introducción a la Programación Funcional",
+                "numero de paginas de Introducción a la Programación Funcional",
+                "dame las paginas de Introducción a la Programación Funcional",
+                "cuantas páginas tiene Introducción a la Programación Funcional"
+            ],
+            "responses": [
+                "El libro 'Introducción a la Programación Funcional' tiene 320 páginas."
+            ]
+        },
+        {
+            "tag": "autor_introducción_a_la_programación_funcional",
+            "patterns": [
+                "quien es el autor del libro Introducción a la Programación Funcional",
+                "autor de Introducción a la Programación Funcional",
+                "quien escribio Introducción a la Programación Funcional",
+                "quienes son los autores del libro Introducción a la Programación Funcional"
+            ],
+            "responses": [
+                "El autor del libro 'Introducción a la Programación Funcional' es Carmen Ruiz.",
+                "Su autor es Carmen Ruiz."
+            ]
+        },
+        {
+            "tag": "descripcion_introducción_a_la_programación_funcional",
+            "patterns": [
+                "dame la descripción del libro Introducción a la Programación Funcional",
+                "descripcion de Introducción a la Programación Funcional",
+                "descripción de Introducción a la Programación Funcional",
+                "de que trata el libro Introducción a la Programación Funcional"
+            ],
+            "responses": [
+                "La descripción del libro 'Introducción a la Programación Funcional' es: \"Conceptos y técnicas de programación funcional con ejemplos en Haskell.\". Es de la editorial McGraw-Hill con ISBN 978-6071509321."
+            ]
+        },
+        {
+            "tag": "editorial_introducción_a_la_programación_funcional",
+            "patterns": [
+                "cual es la editorial de Introducción a la Programación Funcional",
+                "editorial de Introducción a la Programación Funcional",
+                "mencioname la editorial de Introducción a la Programación Funcional"
+            ],
+            "responses": [
+                "La editorial del libro 'Introducción a la Programación Funcional' es McGraw-Hill.",
+                "La editorial es McGraw-Hill."
+            ]
+        },
+        {
+            "tag": "isbn_introducción_a_la_programación_funcional",
+            "patterns": [
+                "cual es el isbn de Introducción a la Programación Funcional",
+                "dame el isbn de Introducción a la Programación Funcional",
+                "isbn del libro Introducción a la Programación Funcional"
+            ],
+            "responses": [
+                "El ISBN del libro 'Introducción a la Programación Funcional' es 978-6071509321."
+            ]
+        },
+        {
+            "tag": "paginas_desarrollo_ágil_con_scrum",
+            "patterns": [
+                "cuantas paginas tiene el libro Desarrollo Ágil con Scrum",
+                "paginas de Desarrollo Ágil con Scrum",
+                "numero de paginas de Desarrollo Ágil con Scrum",
+                "dame las paginas de Desarrollo Ágil con Scrum",
+                "cuantas páginas tiene Desarrollo Ágil con Scrum"
+            ],
+            "responses": [
+                "El libro 'Desarrollo Ágil con Scrum' tiene 280 páginas."
+            ]
+        },
+        {
+            "tag": "autor_desarrollo_ágil_con_scrum",
+            "patterns": [
+                "quien es el autor del libro Desarrollo Ágil con Scrum",
+                "autor de Desarrollo Ágil con Scrum",
+                "quien escribio Desarrollo Ágil con Scrum",
+                "quienes son los autores del libro Desarrollo Ágil con Scrum"
+            ],
+            "responses": [
+                "El autor del libro 'Desarrollo Ágil con Scrum' es Diego Moralez.",
+                "Su autor es Diego Moralez."
+            ]
+        },
+        {
+            "tag": "descripcion_desarrollo_ágil_con_scrum",
+            "patterns": [
+                "dame la descripción del libro Desarrollo Ágil con Scrum",
+                "descripcion de Desarrollo Ágil con Scrum",
+                "descripción de Desarrollo Ágil con Scrum",
+                "de que trata el libro Desarrollo Ágil con Scrum"
+            ],
+            "responses": [
+                "La descripción del libro 'Desarrollo Ágil con Scrum' es: \"Metodologías ágiles para gestión y desarrollo de proyectos de software.\". Es de la editorial Ecoe Ediciones con ISBN 978-9584708190."
+            ]
+        },
+        {
+            "tag": "editorial_desarrollo_ágil_con_scrum",
+            "patterns": [
+                "cual es la editorial de Desarrollo Ágil con Scrum",
+                "editorial de Desarrollo Ágil con Scrum",
+                "mencioname la editorial de Desarrollo Ágil con Scrum"
+            ],
+            "responses": [
+                "La editorial del libro 'Desarrollo Ágil con Scrum' es Ecoe Ediciones.",
+                "La editorial es Ecoe Ediciones."
+            ]
+        },
+        {
+            "tag": "isbn_desarrollo_ágil_con_scrum",
+            "patterns": [
+                "cual es el isbn de Desarrollo Ágil con Scrum",
+                "dame el isbn de Desarrollo Ágil con Scrum",
+                "isbn del libro Desarrollo Ágil con Scrum"
+            ],
+            "responses": [
+                "El ISBN del libro 'Desarrollo Ágil con Scrum' es 978-9584708190."
+            ]
+        },
+        {
+            "tag": "paginas_estructuras_de_datos_en_java",
+            "patterns": [
+                "cuantas paginas tiene el libro Estructuras de Datos en Java",
+                "paginas de Estructuras de Datos en Java",
+                "numero de paginas de Estructuras de Datos en Java",
+                "dame las paginas de Estructuras de Datos en Java",
+                "cuantas páginas tiene Estructuras de Datos en Java"
+            ],
+            "responses": [
+                "El libro 'Estructuras de Datos en Java' tiene 410 páginas."
+            ]
+        },
+        {
+            "tag": "autor_estructuras_de_datos_en_java",
+            "patterns": [
+                "quien es el autor del libro Estructuras de Datos en Java",
+                "autor de Estructuras de Datos en Java",
+                "quien escribio Estructuras de Datos en Java",
+                "quienes son los autores del libro Estructuras de Datos en Java"
+            ],
+            "responses": [
+                "El autor del libro 'Estructuras de Datos en Java' es Valeria Castillo.",
+                "Su autor es Valeria Castillo."
+            ]
+        },
+        {
+            "tag": "descripcion_estructuras_de_datos_en_java",
+            "patterns": [
+                "dame la descripción del libro Estructuras de Datos en Java",
+                "descripcion de Estructuras de Datos en Java",
+                "descripción de Estructuras de Datos en Java",
+                "de que trata el libro Estructuras de Datos en Java"
+            ],
+            "responses": [
+                "La descripción del libro 'Estructuras de Datos en Java' es: \"Tratamiento completo de estructuras de datos usando Java.\". Es de la editorial Alphaomega con ISBN 978-9876541234."
+            ]
+        },
+        {
+            "tag": "editorial_estructuras_de_datos_en_java",
+            "patterns": [
+                "cual es la editorial de Estructuras de Datos en Java",
+                "editorial de Estructuras de Datos en Java",
+                "mencioname la editorial de Estructuras de Datos en Java"
+            ],
+            "responses": [
+                "La editorial del libro 'Estructuras de Datos en Java' es Alphaomega.",
+                "La editorial es Alphaomega."
+            ]
+        },
+        {
+            "tag": "isbn_estructuras_de_datos_en_java",
+            "patterns": [
+                "cual es el isbn de Estructuras de Datos en Java",
+                "dame el isbn de Estructuras de Datos en Java",
+                "isbn del libro Estructuras de Datos en Java"
+            ],
+            "responses": [
+                "El ISBN del libro 'Estructuras de Datos en Java' es 978-9876541234."
+            ]
+        },
+        {
+            "tag": "paginas_patrones_de_diseño_en_software",
+            "patterns": [
+                "cuantas paginas tiene el libro Patrones de Diseño en Software",
+                "paginas de Patrones de Diseño en Software",
+                "numero de paginas de Patrones de Diseño en Software",
+                "dame las paginas de Patrones de Diseño en Software",
+                "cuantas páginas tiene Patrones de Diseño en Software"
+            ],
+            "responses": [
+                "El libro 'Patrones de Diseño en Software' tiene 360 páginas."
+            ]
+        },
+        {
+            "tag": "autor_patrones_de_diseño_en_software",
+            "patterns": [
+                "quien es el autor del libro Patrones de Diseño en Software",
+                "autor de Patrones de Diseño en Software",
+                "quien escribio Patrones de Diseño en Software",
+                "quienes son los autores del libro Patrones de Diseño en Software"
+            ],
+            "responses": [
+                "El autor del libro 'Patrones de Diseño en Software' es Fernando García.",
+                "Su autor es Fernando García."
+            ]
+        },
+        {
+            "tag": "descripcion_patrones_de_diseño_en_software",
+            "patterns": [
+                "dame la descripción del libro Patrones de Diseño en Software",
+                "descripcion de Patrones de Diseño en Software",
+                "descripción de Patrones de Diseño en Software",
+                "de que trata el libro Patrones de Diseño en Software"
+            ],
+            "responses": [
+                "La descripción del libro 'Patrones de Diseño en Software' es: \"Explicación de los principales patrones de diseño orientados a objetos.\". Es de la editorial Marcombo con ISBN 978-8499643018."
+            ]
+        },
+        {
+            "tag": "editorial_patrones_de_diseño_en_software",
+            "patterns": [
+                "cual es la editorial de Patrones de Diseño en Software",
+                "editorial de Patrones de Diseño en Software",
+                "mencioname la editorial de Patrones de Diseño en Software"
+            ],
+            "responses": [
+                "La editorial del libro 'Patrones de Diseño en Software' es Marcombo.",
+                "La editorial es Marcombo."
+            ]
+        },
+        {
+            "tag": "isbn_patrones_de_diseño_en_software",
+            "patterns": [
+                "cual es el isbn de Patrones de Diseño en Software",
+                "dame el isbn de Patrones de Diseño en Software",
+                "isbn del libro Patrones de Diseño en Software"
+            ],
+            "responses": [
+                "El ISBN del libro 'Patrones de Diseño en Software' es 978-8499643018."
+            ]
+        }
+    ]
+}

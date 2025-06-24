@@ -70,7 +70,7 @@ document.getElementById('message-form').addEventListener('submit', function(e) {
             headers: {
                 'Content-Type': 'application/json',
             },
-            // Enviamos tanto el mensaje como el ID de la conversación
+            // Enviamos el mensaje y el ID de la conversación
             body: JSON.stringify({ message: message, conversation_id: conversationId })
         })
         .then(response => response.json())

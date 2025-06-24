@@ -6,16 +6,23 @@
 <div class="d-flex flex-column h-100">
     <!-- Header -->
     <div class="d-flex justify-content-between align-items-center pb-2 mb-3 border-bottom">
-        <h1 class="h2">Historial de Conversaciones</h1>
-        <div class="col-md-4">
-            <form method="GET" action="{{ url_for('historial') }}">
-                <div class="input-group">
-                    <input type="text" class="form-control" name="q" placeholder="Buscar en mensajes..." value="{{ search_query or '' }}">
-                    <button class="btn btn-outline-secondary" type="submit">
-                        <i class="fas fa-search"></i>
-                    </button>
-                </div>
-            </form>
+        <div>
+            <h1 class="h2">Historial de Conversaciones</h1>
+        </div>
+        <div class="d-flex align-items-center">
+            <div class="col-md-4 me-3">
+                <form method="GET" action="{{ url_for('historial') }}">
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="q" placeholder="Buscar en mensajes..." value="{{ search_query or '' }}">
+                        <button class="btn btn-outline-secondary" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="text-end">
+                <strong>{{ current_user.nombre }}</strong>
+            </div>
         </div>
     </div>
 
